@@ -1,9 +1,11 @@
-package helloWorld
+package sparkConf 
 
+import java.sql.{Connection, DriverManager, ResultSet};
+import org.apache.log4j.{Level, Logger}
+import org.apache.spark.sql._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
-import org.apache.log4j.Logger
 
 object app 
 {
